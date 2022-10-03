@@ -42,7 +42,11 @@ Codility
         int num = input.nextInt();
 
         for (int i = 1; i<=num; i++){
-            if (i%2==0){
+            if (i%30==0){
+                System.out.println("CodilityTestCoders");
+            }else if (i%6==0 || i%10==0 || i%15==0){
+                System.out.println("CodilityTest");
+            } else if (i%2==0){
                 System.out.println("Codility");
             }else if (i%3==0){
                 System.out.println("Test");
