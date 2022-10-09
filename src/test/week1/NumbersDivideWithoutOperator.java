@@ -1,6 +1,6 @@
 package test.week1;
 
-public class Numbers {
+public class NumbersDivideWithoutOperator {
     public static void main(String[] args) {
 
         divide(11,3);
