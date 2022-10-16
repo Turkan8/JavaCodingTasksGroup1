@@ -18,5 +18,6 @@ public class SameLetters {
         System.out.println(first.stream().sorted().collect(Collectors.toList()).equals(second.stream().sorted().collect(Collectors.toList())));
 
 
+
     }
 }
