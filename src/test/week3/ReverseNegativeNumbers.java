@@ -4,7 +4,7 @@ public class ReverseNegativeNumbers {
 
     public static void main(String[] args) {
 
-        System.out.println(reverse(-98));
+        System.out.println(reverse(-981));
 
     }
     public static int reverse(int number){
@@ -12,7 +12,7 @@ public class ReverseNegativeNumbers {
         String nums = "-";
         int length = (""+number).length();
 
-        for (int i = 0; i <length ; i++) {
+        for (int i = 0; i < length ; i++) {
             nums += number%10;
             number = number/10;
         }
